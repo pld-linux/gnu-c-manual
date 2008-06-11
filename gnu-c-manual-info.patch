@@ -1,0 +1,14 @@
+--- gnu-c-manual-0.1/gnu-c-manual.texi.orig	2008-01-28 02:16:32.000000000 +0100
++++ gnu-c-manual-0.1/gnu-c-manual.texi	2008-06-11 22:45:58.967213990 +0200
+@@ -5,6 +5,11 @@
+ @c @smallbook
+ @comment %**end of header
+ 
++@dircategory Programming Languages:
++@direntry
++* GNU C Reference: (gnu-c-manual).	The GNU C Reference Manual
++@end direntry
++
+ @copying
+ This is the GNU C reference manual.
+ 
