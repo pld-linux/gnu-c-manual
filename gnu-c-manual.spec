@@ -1,12 +1,12 @@
 Summary:	The GNU C Reference Manual
 Summary(pl.UTF-8):	Dokumentacja GNU C
 Name:		gnu-c-manual
-Version:	0.2.2
+Version:	0.2.3
 Release:	1
 License:	FDL v1.3+
 Group:		Documentation
 Source0:	http://ftp.gnu.org/gnu/gnu-c-manual/%{name}-%{version}.tar.gz
-# Source0-md5:	c2233d5e6c6fb59143d94ccc9abd1b4a
+# Source0-md5:	d86166c253221e2230392f554ca79650
 Patch0:		%{name}-info.patch
 URL:		http://www.gnu.org/software/gnu-c-manual/
 BuildRequires:	texinfo
@@ -59,5 +59,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README
 %attr(755,root,root) %{_infodir}/gnu-c-manual.info*
