@@ -39,7 +39,7 @@ Ta wersja pokrywa standard C89.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 makeinfo gnu-c-manual.texi
